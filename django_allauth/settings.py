@@ -51,6 +51,10 @@ MIDDLEWARE = [
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
+# demo_project/settings.py
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_REDIRECT_URL = 'home'
+
 ROOT_URLCONF = 'django_allauth.urls'
 
 TEMPLATES = [
